@@ -198,7 +198,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 40px;
-    color: #fcad04;
     cursor: pointer;
     flex:0.5;/*轉動時間1 秒*/
     transition: flex 0.7s ease-in;/*flex是橫向滾動*/
@@ -207,15 +206,15 @@ body {
 }
 h3{
     font-size: 24px;
+    color: #fcad04;
     font-weight: 700;
     display:inline-block;
     padding-top: 50px;
-    z-index:7;
     opacity: 0;
 }
 .panel.active{
-    flex:5;/*flex1-5有種效果*/
-}
+    flex:5;/*panel的active那個圖最大,5最大,1是全部一樣*/
+} 
 .panel.active  h3{
     opacity: 1;
     transition:opacity 0.5s ease-in 0.4s;
@@ -233,8 +232,8 @@ h3{
     }
     .panel{
         background-size:cover;
-            background-position: center;
-            background-repeat: no-repeat;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
 
