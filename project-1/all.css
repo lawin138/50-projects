@@ -199,7 +199,7 @@ body {
     background-repeat: no-repeat;
     border-radius: 40px;
     cursor: pointer;
-    flex:0.5;/*轉動時間1 秒*/
+    flex:0.5;/*panel只有50%width大小,先把縮小,再放大*/
     transition: flex 0.7s ease-in;/*flex是橫向滾動*/
     margin:10px;
     text-align: center;
@@ -213,7 +213,8 @@ h3{
     opacity: 0;
 }
 .panel.active{
-    flex:5;/*panel的active那個圖最大,5最大,1是全部一樣*/
+    flex:5;
+    /*panel有active那個圖最大,5最大,1是正常,0.5是一半*/
 } 
 .panel.active  h3{
     opacity: 1;
