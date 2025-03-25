@@ -196,6 +196,11 @@ body{
 
 .container{
     text-align: center;
+    border:0.5px solid #faf1f1;
+    max-width:100%;
+    width:450px;
+    height:auto;
+    padding:40px 15px 10px;
 }
 .progress-container{
     display:flex;
@@ -255,6 +260,31 @@ body{
     width:100%;
    position:absolute;
 } 
+#circle-2::before {
+    content: 'Products sent';
+    font-size: 10px;
+    color: #808080;
+    transform: translate(-10px, -40px);
+    width: 100%;
+    position: absolute;
+}
+#circle-3::before {
+    content: 'products arrived';
+    font-size: 10px;
+    color: #808080;
+    transform: translate(-10px, -40px);
+    width: 100%;
+    position: absolute;
+}
+#circle-4::before {
+    content: 'Procedure completed';
+    font-size: 10px;
+    color: #808080;
+    transform: translate(-10px, -40px);
+    width: 100%;
+    position: absolute;
+}
+/*adove is circle-text style*/
 .btn{
     background-color: var(--border-color);
     color:#301c58;
