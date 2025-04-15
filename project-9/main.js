@@ -1,4 +1,4 @@
-const sounds = ['cowroar', 'creepy', 'dogbrak', 'keyboard', 'trainhum', 'dangdong']
+const sounds = ['key-a', 'key-b', 'key-c', 'key-d', 'key-e', 'key-f']
 
 sounds.forEach(sound => {
     const btn = document.createElement('button')
