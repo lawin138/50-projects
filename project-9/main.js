@@ -1,4 +1,4 @@
-const sounds = ['key-a', 'key-b', 'key-c', 'key-d', 'key-e', 'key-f']
+const sounds = ['key-a', 'key-b', 'key-c', 'key-d', 'key-e', 'key-f', 'key-g']
 
 sounds.forEach(sound => {
     const btn = document.createElement('button')
