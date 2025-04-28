@@ -1,0 +1,83 @@
+ol {
+    list-style: dot;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+/*table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*/
+
+/*separate=each border have*/
+table {
+    border-collapse: separate;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+}
+
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexkai.css");
+/*adobe楷體中文  ,code: font-family: "cwTeKai", serif; */
+
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexming.css");
+/*adobe明細體中文,  code: font-family:"cwTeMing", serif*/
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+/*中粗度,瘦長標題字*/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+/*瘦長中體字*/
+@import url("https://fonts.googleapis.com/css?family=Noto+sans+TC:100,200,400,500,600,700,800,900&display=swap");
+/*思源正黑體英文,   code: font-family: "Noto sans TC", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family='Rotobo', sans-serif");
+/*adobel中細體英文,端正 'Rotobo', sans-serif */
+
+img {
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Muli',sans-serif;
+    background-color: #e1e1e1;
+}
+.key{
+    border:1px solid #999;
+    background-color: #eee;
+    box-shadow: 1px 1px 3px #0000001a;
+    display:inline-flex;
+    align-items: center;
+    flex-direction: column;
+    padding:20px;
+    margin:10px;
+    font-weight: 800;
+    font-size: 20px;
+    min-width:150px;
+    position:relative;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.key small{
+    position:absolute;
+    top:-24px;
+    left:0;
+    text-align:center;
+    color:#555;
+    font-size:14px;
+    width:100%;
+    cursor: pointer;
+}
