@@ -1,0 +1,120 @@
+ol {
+    list-style: dot;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+/*table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*/
+
+/*separate=each border have*/
+table {
+    border-collapse: separate;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+}
+
+ol {
+    list-style: dot;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+/*table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+*/
+
+/*separate=each border have*/
+table {
+    border-collapse: separate;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+}
+
+/*PS,  <link>rel="stylesheet" href=" "  寫在html內,  @import url(" " )   寫在css內*/
+
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexkai.css");
+/*adobe楷體中文  ,code: font-family: "cwTeKai", serif; */
+@import url("https://fonts.googleapis.com/earlyaccess/cwtexming.css");
+/*adobe明細體中文,  code: font-family:"cwTeMing", serif*/
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+/*中粗度,瘦長標題字*/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+/*瘦長中體字*/
+@import url("https://fonts.googleapis.com/css?family=Noto+sans+TC:100,200,400,500,600,700,800,900&display=swap");
+/*思源正黑體英文,   code: font-family: "Noto sans TC", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family='Rotobo', sans-serif");
+/*adobel中細體英文,端正 'Rotobo', sans-serif */
+
+img {
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #988f82;
+    font-family: 'muli', sans-serif;
+    overflow: hidden;
+}
+h3{
+    color:#fff;
+    margin:10px 0 20px;
+    text-align: center;
+}
+.container{
+    width:500px;
+    border:1px solid #adadad;
+    height:auto;
+}
+textarea{
+    border:none;
+    display:block;
+    width:100%;
+    height:100px;
+    font-family: inherit;
+    padding:10px;
+    margin:0 0 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* #tags{
+    display:none;
+} */
+.tag{
+    background-color: #f0932b;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 50px;
+    margin:0 5px 10px 0;
+    font-size: 14px;
+     display:inline-block; 
+}
+.tag.highlight{
+    background-color: #273c75;
+}
